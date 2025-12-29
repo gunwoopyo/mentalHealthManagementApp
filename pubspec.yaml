@@ -1,0 +1,39 @@
+name: myapp2222
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.63.0
+  intl: ^0.18.1
+  url_launcher: ^6.1.7
+  app_links: ^3.4.2
+  audioplayers: ^5.2.0
+  firebase_auth: ^4.20.0
+  firebase_core: ^2.27.0
+  firebase_analytics: ^10.8.0
+  cloud_firestore: ^4.15.0
+  http: ^0.13.6
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/mp3/rain.mp3
+    - assets/mp3/waves.mp3
+    - assets/mp3/birds.mp3
+    - assets/images/smile.png
+    - assets/images/neutral.png
+    - assets/images/pouting.png
